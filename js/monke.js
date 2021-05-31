@@ -1,0 +1,1 @@
+let greg = document.getElementsByClassName("greg")
