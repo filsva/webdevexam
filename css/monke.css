@@ -1,26 +1,137 @@
-    h1 {
-    background-color: lemonchiffon;
-    font-family: cursive;
-    text-align: center;
-    height: 50px;
-    width: 600px; 
-    }
 
-    body {
-        background-image: url(https://swall.teahub.io/photos/small/327-3274595_free-jungle-forest-wallpaper-4k.jpg);
-        background-color: transparent;
-        background-position: center;
-        background-position: top;
-        background-size: cover;
-        height: 100%;
+body {
+        
+    background-image: url(https://wallpapercave.com/wp/wp1968951.jpg);
+    background-size: cover;
+        
+    
+    
+    background-position: center;
+    background-position: top;
+        
+    animation: transitionIn 0.75s;
+}
+
+/*https://www.youtube.com/watch?v=zWB219zf1og */
+@keyframes transitionIn{
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+        }
     }
     
-    .Greg {
-        background-image: url(https://www.kenzantours.se/wp-content/uploads/2016/03/Borneo-Kuching-Orangutang-Richie-2-Lars-Jageland-e1548163076910.jpg);
-        background-position: center;
-        background-size: cover;
-        width: 300px;
-        height: 300px;
-    }
+.titleCard {
+    width:300px;
+    height: 50px;
+    background-color: rgb(70, 77, 64);
+    margin:auto;
+    margin-bottom: 20px;
+}
 
+#title {
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+}
+
+#textSquare {
+    --text-square-color: #f8e9bb;
+    margin: auto;
+    background-color: var(--text-square-color);
+    
+    width: 80%;
+    height: 700px;
+}
+
+#startText{
+    margin-left: 23%;
+}
+#monkeGif {
+    margin-left: 35%;
+    margin-top: 20px;
+    width: 356px;
+    height: 200px;
+}
+
+#roosterSquare {
+    --text-square-color: #f8e9bb;
+    background-color: var(--text-square-color);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 30px;
+    margin:auto;
+    width: 80%;
+    height: 700px;
+}
+
+#Greg {
+    padding: 100px;
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+    background-image: url(https://wallpaperaccess.com/full/2136624.jpg);
+    background-position: center;
+    background-size: cover;
+   
+}
+
+#Giuseppe {
+    padding: 100px;
+    margin-top: 60px;
+    margin-right: 60px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+    background-image: url(https://static-cdn.sr.se/images/83/a24e7d25-b64b-42d8-b7cf-50cb34f539c0.jpg?preset=1024x576);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+#Göran {
+    padding: 100px;
+    margin-left: 60px;
+    margin-bottom: 60px;
+    margin-right: 20px;
+    margin-top: 20px;
+
+    background-image: url(https://lh3.googleusercontent.com/proxy/JCmIzNAZMhgSGuSRcZ7rNmceVouLKgaiLZolWofyiZgT_HfiElNMfFfFmIGLdSj27zdX9O8tbXVK9qSFQpLmQoKwiXVu2ESHELuXpsSITP6qc1VElGI9UpR5wL1BBpWHxs07wAWDidFtWEljnjtlhyZJgRWw09kes6iL);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+#Glenn {
+    padding: 100px;
+    margin-right: 60px;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    margin-left: 20px;
+
+    background-image: url(https://www.sciencenews.org/wp-content/uploads/2020/06/062520_bb_recursion_feat.jpg);
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.monkeButton {
+    opacity: 0.7;
+}
+
+.monkeButton:hover {
+    opacity: 1;
+}
+
+@media screen and (max-width: 600px) {
+    #roosterSquare {
+        display: block;
+    } 
+}
     
